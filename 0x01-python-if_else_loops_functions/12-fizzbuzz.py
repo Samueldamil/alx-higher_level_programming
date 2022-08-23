@@ -1,6 +1,5 @@
 #!/usr/bin/python3
 # Author - Edun Damilare
-#!/usr/bin/env python3
 
 """Printing from 1 to 100 and check which is Buzz, Fizz or FizzBuzz"""
 def fizzbuzz():
