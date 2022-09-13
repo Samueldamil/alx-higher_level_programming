@@ -2,9 +2,10 @@
 
 """Defines a class Square."""
 
+
 class Square:
     """Represent a square."""
-    
+
     def __init__(self, size=0):
         """Initializes a new square.
 
@@ -17,6 +18,7 @@ class Square:
     def size(self):
         """Get/set the current size of the square."""
         return (self.__size)
+
     @size.setter
     def size(self, value):
         if not isinstance(value, int):
