@@ -1,5 +1,6 @@
-#!/bin/python3
-"""Defines a class Base"""
+#!/usr/bin/python3
+
+"""Defines a base model class."""
 import json
 import csv
 import turtle
@@ -7,7 +8,6 @@ import turtle
 
 class Base:
     """Base model.
-
     This Represents the "base" for all other classes in project 0x0C*.
     Private Class Attributes:
         __nb_object (int): Number of instantiated Bases.
@@ -34,8 +34,7 @@ class Base:
         """
         if list_dictionaries is None or list_dictionaries == []:
             return "[]"
-        else:
-            return json.dumps(list_dictionaries)
+        return json.dumps(list_dictionaries)
 
     @classmethod
     def save_to_file(cls, list_objs):
